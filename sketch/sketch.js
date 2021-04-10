@@ -14,7 +14,6 @@ function setup() {
       function gotTabs(tabs) {
         console.log('got tabs');
         console.log(tabs);
-        // send a message to the content script
         let message = userinput.value();
         let msg = {
           txt: userinput.value()

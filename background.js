@@ -6,4 +6,3 @@ function buttonClicked(tab)
 {
   console.log(tab);
 }
-
